@@ -28,7 +28,7 @@ margin_right = 340.0
 margin_bottom = 400.0
 size_flags_horizontal = 2
 size_flags_vertical = 2
-icon = ExtResource( 2 )
+icon = ExtResource( 4 )
 
 [node name="TrailerTruck" type="Button" parent="."]
 margin_left = 344.0
@@ -37,7 +37,7 @@ margin_right = 680.0
 margin_bottom = 401.0
 size_flags_horizontal = 2
 size_flags_vertical = 2
-icon = ExtResource( 3 )
+icon = ExtResource( 2 )
 
 [node name="TowTruck" type="Button" parent="."]
 margin_left = 684.0
@@ -46,7 +46,7 @@ margin_right = 1020.0
 margin_bottom = 400.0
 size_flags_horizontal = 2
 size_flags_vertical = 2
-icon = ExtResource( 4 )
+icon = ExtResource( 3 )
 
 [connection signal="pressed" from="MiniVan" to="." method="_on_MiniVan_pressed"]
 [connection signal="pressed" from="TrailerTruck" to="." method="_on_TrailerTruck_pressed"]
